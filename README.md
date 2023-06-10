@@ -30,7 +30,7 @@ Ordre d'installation du script :
 3. Les apps
 
 
-### 🐘 Install core packages
+### 🐘 Install core dev packages
 | **Package** | **Install cmd** |
 |---|---|
 | postgresql | `brew install postgresql@13` |
@@ -52,46 +52,50 @@ La suite office est a intallée manuellement à causes de conflits.
 ci dessous les application qui seront intallées dans le script.
 
 
-| **App Name**  | **Install cmd** |
-|---|---|
-| | **Homebrew** |
-| Apps| `echo Install Core Apps via brew` |
-| sublime| `brew install --cask sublime-text` |
-| raycast| `brew install --cask raycast` |
-| dropbox| `brew install --cask dropbox` |
-| transmit| `brew install --cask transmit` |
-| vlc| `brew install --cask vlc` |
-| appcleaner| `brew install --cask appcleaner` |
-| rectangle| `brew install --cask rectangle` |
-| deepl| `brew install --cask deepl` |
-| firefox| `brew install --cask firefox` |
-| firefox| `brew install --cask firefox-developer-edition` |
-| chrome| `brew install --cask chrome` |
-| spotify| `brew install --cask spotify` |
-| google| `brew install --cask google-drive` |
-| dropbox| `brew install --cask dropbox` |
-| tableplus| `brew install --cask tableplus` |
-| figma| `brew install --cask figma` |
-| gimp| `brew install --cask gimp` |
-| hey| `brew install --cask hey` |
-| inkscape| `brew install --cask inkscape` |
-| linear| `brew install --cask linear-linear` |
-| languagetool | `brew install languagetool` |
-| ledger| `brew install --cask ledger-live` |
-| notion| `brew install --cask notion` |
-| postman| `brew install --cask postman` |
-| nucleo| `brew install --cask nucleo` |
-| responsively| `brew install --cask responsively` |
-| signal| `brew install --cask signal` |
-| | **AppStore** |
-| Dashlane | `mas install 517914548` |
-| Slack | `mas install 803453959` |
-| Whatsapp | `mas install 1147396723` |
-| Messenger | `mas install 1480068668` |
-| Unarchiver | `mas install 425424353` |
-| HotSpot Shield VPN | `mas install 771076721` |
-| Telegram Lite | `mas install 946399090` |
-| Canva | `mas install 897446215` |
+| **App Name**       | **Install cmd**                                 |
+|--------------------|-------------------------------------------------|
+|                    | **Homebrew**                                    |
+| Apps               | `echo Install Core Apps via brew`               |
+| sublime            | `brew install --cask sublime-text`              |
+| raycast            | `brew install --cask raycast`                   |
+| dropbox            | `brew install --cask dropbox`                   |
+| transmit           | `brew install --cask transmit`                  |
+| vlc                | `brew install --cask vlc`                       |
+| appcleaner         | `brew install --cask appcleaner`                |
+| rectangle          | `brew install --cask rectangle`                 |
+| deepl              | `brew install --cask deepl`                     |
+| firefox            | `brew install --cask firefox`                   |
+| firefox dev        | `brew install --cask firefox-developer-edition` |
+| chrome             | `brew install --cask chrome`                    |
+| spotify            | `brew install --cask spotify`                   |
+| google             | `brew install --cask google-drive`              |
+| dropbox            | `brew install --cask dropbox`                   |
+| tableplus          | `brew install --cask tableplus`                 |
+| figma              | `brew install --cask figma`                     |
+| gimp               | `brew install --cask gimp`                      |
+| hey                | `brew install --cask hey`                       |
+| inkscape           | `brew install --cask inkscape`                  |
+| linear             | `brew install --cask linear-linear`             |
+| languagetool       | `brew install languagetool`                     |
+| ledger             | `brew install --cask ledger-live`               |
+| notion             | `brew install --cask notion`                    |
+| postman            | `brew install --cask postman`                   |
+| nucleo             | `brew install --cask nucleo`                    |
+| responsively       | `brew install --cask responsively`              |
+| signal             | `brew install --cask signal`                    |
+| skiff              | `brew install --cask skiff`                     |
+| gitkraken          | `brew install --cask gitkraken`                 |
+| rubymine           | `brew install --cask rubymine`                  |
+| raindrop           | `brew install --cask raindropio`                |
+|                    | **AppStore**                                    |
+| Dashlane           | `mas install 517914548`                         |
+| Slack              | `mas install 803453959`                         |
+| Whatsapp           | `mas install 1147396723`                        |
+| Messenger          | `mas install 1480068668`                        |
+| Unarchiver         | `mas install 425424353`                         |
+| HotSpot Shield VPN | `mas install 771076721`                         |
+| Telegram Lite      | `mas install 946399090`                         |
+| Canva              | `mas install 897446215`                         |
 
 
 📝 To update all outdated app installed via homebrew: `brew update && brew upgrade`
@@ -126,6 +130,8 @@ Liste des extensions/scripts :
 - Github
 - Linear
 - Notion
+- Raindrop
+- Dashlane
 
 
 ---

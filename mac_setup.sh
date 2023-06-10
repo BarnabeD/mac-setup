@@ -63,6 +63,9 @@ brew install --cask nucleo
 brew install --cask responsively
 brew install --cask signal
 brew install --cask cyberduck
+brew install --cask gitkraken
+brew install --cask rubymine
+brew install --cask raindropio
 # brew install --cask google-chrome
 
 echo All app are instaled ! Well let\'s go cleanup brew
