@@ -31,18 +31,18 @@ Ordre d'installation du script :
 
 
 ### 🐘 Install core dev packages
-| **Package** | **Install cmd** |
-|---|---|
-| postgresql | `brew install postgresql@13` |
-| postgresql | `brew install postgresql` |
-| maria_db | `brew install maria_db` |
-| wget | `brew install wget` |
-| redis | `brew install redis` |
-| gh | `brew install gh` |
-| ngrok | `brew install ngrok/ngrok/ngrok` |
-| imagemagick | `brew install imagemagick` |
-| zsh | `brew install zsh-syntax-highlighting` |
-| docker | `brew install docker` |
+| **Package** | **Install cmd**                        |
+|-------------|----------------------------------------|
+| postgresql  | `brew install postgresql@13`           |
+| postgresql  | `brew install postgresql`              |
+| maria_db    | `brew install maria_db`                |
+| wget        | `brew install wget`                    |
+| redis       | `brew install redis`                   |
+| gh          | `brew install gh`                      |
+| ngrok       | `brew install ngrok/ngrok/ngrok`       |
+| imagemagick | `brew install imagemagick`             |
+| zsh         | `brew install zsh-syntax-highlighting` |
+| docker      | `brew install docker`                  |
 
 
 ### 📦 Install softs
