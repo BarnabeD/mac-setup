@@ -36,6 +36,8 @@ echo Install Dev Apps
 
 echo Install Core Apps via brew
 brew install --cask sublime-text
+brew install --cask zed
+# brew install --cask rubymine
 brew install --cask raycast
 brew install --cask dropbox
 brew install --cask transmit
@@ -53,6 +55,7 @@ brew install --cask tableplus
 brew install --cask figma
 brew install --cask gimp
 brew install --cask hey
+brew install --cask basecamp
 brew install --cask inkscape
 brew install --cask linear-linear
 brew install languagetool
@@ -64,8 +67,11 @@ brew install --cask responsively
 brew install --cask signal
 brew install --cask cyberduck
 brew install --cask gitkraken
-brew install --cask rubymine
 brew install --cask raindropio
+brew install --cask reader
+brew install --cask wakatime
+brew install --cask raindropio
+brew install --cask latest
 # brew install --cask google-chrome
 
 echo All app are instaled ! Well let\'s go cleanup brew
@@ -89,4 +95,3 @@ mas install 897446215 # Canva
 
 echo Script finished !
 echo Please restart yor Mac
-
