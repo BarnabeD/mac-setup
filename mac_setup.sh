@@ -28,6 +28,8 @@ brew install ngrok/ngrok/ngrok
 brew install imagemagick
 brew install zsh-syntax-highlighting
 brew install docker
+brew install dashlane/tap/dashlane-cli
+brew install vips
 
 
 echo Install Dev Apps
@@ -58,7 +60,7 @@ brew install --cask hey
 brew install --cask basecamp
 brew install --cask inkscape
 brew install --cask linear-linear
-brew install languagetool
+brew install --cask languagetool
 brew install --cask ledger-live
 brew install --cask notion
 brew install --cask postman
