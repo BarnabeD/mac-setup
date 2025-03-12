@@ -29,6 +29,7 @@ brew install imagemagick
 brew install zsh-syntax-highlighting
 brew install docker
 brew install dashlane/tap/dashlane-cli
+dcli configure user-presence --method biometrics # prevent access to vault withour biometrics
 brew install vips
 
 
