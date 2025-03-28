@@ -73,7 +73,6 @@ brew install --cask gitkraken
 brew install --cask raindropio
 brew install --cask reader
 brew install --cask wakatime
-brew install --cask raindropio
 brew install --cask latest
 brew install --cask kdrive
 # brew install --cask google-chrome

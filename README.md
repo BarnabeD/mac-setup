@@ -1,20 +1,24 @@
+WIP : Look à Brewfile : https://github.com/codewithkristian/computer?ref=codewithkristian.com
+
 # mac-setup
+
 New mac setup, step by step.
+
 1. Step 1 : Installer Xcode
 2. Step 2 : Lancer le script d'installation
 3. Step 3 : Config `.zsh`
 4. Step 4 : Installer les extensions Raycact
-
 
 ## ⚙️ Step 1 : Installer Xcode
 
 ```shell
 xcode-select --install
 ```
+
 Si l'installation pose problème :
+
 1. réssayer
 2. Nettoyer le catalogue avec `sudo softwareupdate --clear-catalog`
-
 
 ## ⚙️ Step 2 : Lancer le script d'installation
 
@@ -22,17 +26,18 @@ Si l'installation pose problème :
 zsh mac-setup.sh
 ```
 
-
 ### Description du script d'installation :
+
 Ordre d'installation du script :
+
 1. Homebew, mas et oh my Zsh
 2. Les package système.
 3. Les apps
 
-
 ### 🐘 Install core dev packages
+
 | **Package** | **Install cmd**                        |
-|-------------|----------------------------------------|
+| ----------- | -------------------------------------- |
 | postgresql  | `brew install postgresql@13`           |
 | postgresql  | `brew install postgresql`              |
 | maria_db    | `brew install maria_db`                |
@@ -44,16 +49,14 @@ Ordre d'installation du script :
 | zsh         | `brew install zsh-syntax-highlighting` |
 | docker      | `brew install docker`                  |
 
-
 ### 📦 Install softs
 
 La majorité des app seront installée via brew, d'autres par Apple store (via mas)
 La suite office est a intallée manuellement à causes de conflits.
 ci dessous les application qui seront intallées dans le script.
 
-
 | **App Name**       | **Install cmd**                                 |
-|--------------------|-------------------------------------------------|
+| ------------------ | ----------------------------------------------- |
 |                    | **Homebrew**                                    |
 | Apps               | `echo Install Core Apps via brew`               |
 | sublime            | `brew install --cask sublime-text`              |
@@ -87,6 +90,7 @@ ci dessous les application qui seront intallées dans le script.
 | gitkraken          | `brew install --cask gitkraken`                 |
 | rubymine           | `brew install --cask rubymine`                  |
 | raindrop           | `brew install --cask raindropio`                |
+| Kdrive             | `brew install --cask kdrive`                    |
 |                    | **AppStore**                                    |
 | Dashlane           | `mas install 517914548`                         |
 | Slack              | `mas install 803453959`                         |
@@ -97,17 +101,18 @@ ci dessous les application qui seront intallées dans le script.
 | Telegram Lite      | `mas install 946399090`                         |
 | Canva              | `mas install 897446215`                         |
 
-
 📝 To update all outdated app installed via homebrew: `brew update && brew upgrade`
 
-
 ## ⚙️ Step 3 : Config `.zshrc`
+
 Aller à la racine du mac et ouvrez le fichier `.zshrc`.
+
 ```
 cd && nano .zshrc
 ```
 
 Varifier / remplacer ces lines :
+
 ```
 ZSH_THEME="robbyrussell"
 
@@ -117,6 +122,7 @@ export HOMEBREW_NO_ANALYTICS=1
 ```
 
 ### ⚙️ Step 4 : Installer les extensions Raycact :
+
 Raycast est installé dans le script.
 
 ```
@@ -124,8 +130,8 @@ cmd + space
 store
 ```
 
-
 Liste des extensions/scripts :
+
 - Brew
 - Github
 - Linear
@@ -133,13 +139,11 @@ Liste des extensions/scripts :
 - Raindrop
 - Dashlane
 
-
 ---
+
 # TODO :
+
 - Script de démarrage des services
 - démarrer les bases de données
 - Gérer les utilisateurs / password des bases de données
 - Continuer les étapes du setup du wagon (Git, RVM, dotfiles)
-
-
-
