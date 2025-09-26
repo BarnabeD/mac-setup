@@ -31,6 +31,9 @@ brew install docker
 brew install dashlane/tap/dashlane-cli
 dcli configure user-presence --method biometrics # prevent access to vault withour biometrics
 brew install vips
+brew install lazygit
+brew install libyaml
+
 
 
 echo Install Dev Apps
@@ -75,6 +78,7 @@ brew install --cask reader
 brew install --cask wakatime
 brew install --cask latest
 brew install --cask kdrive
+brew install --cask libreoffice
 # brew install --cask google-chrome
 
 echo All app are instaled ! Well let\'s go cleanup brew
@@ -95,6 +99,12 @@ mas install 771076721 # HotSpot Shield VPN
 mas install 946399090 # Telegram Lite
 mas install 897446215 # Canva
 
+echo Install ruby
+curl https://mise.run | sh
+echo 'eval "$(~/.local/bin/mise activate)"' >> ~/.zshrc
+source ~/.zshrc
+mise use -g ruby@3
+gem
 
 echo Script finished !
 echo Please restart yor Mac
