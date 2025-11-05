@@ -32,6 +32,8 @@ brew install dashlane/tap/dashlane-cli
 dcli configure user-presence --method biometrics # prevent access to vault withour biometrics
 brew install vips
 brew install lazygit
+brew install delta # Lazygit diff pager
+brew install lazydocker # Lazygit diff pager
 brew install libyaml
 
 
