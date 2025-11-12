@@ -82,6 +82,8 @@ brew install --cask latest
 brew install --cask kdrive
 brew install --cask libreoffice
 brew install --cask affinity
+brew install --cask cap
+
 # brew install --cask google-chrome
 
 echo All app are instaled ! Well let\'s go cleanup brew
