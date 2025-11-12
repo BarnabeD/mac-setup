@@ -54,7 +54,7 @@ brew install --cask appcleaner
 brew install --cask rectangle
 brew install --cask deepl
 brew install --cask firefox
-brew install --cask firefox-developer-edition
+brew install --cask firefox@developer-edition
 brew install --cask chrome
 brew install --cask spotify
 brew install --cask google-drive
@@ -87,7 +87,7 @@ echo All app are instaled ! Well let\'s go cleanup brew
 
 # cleanup
 brew cleanup --force
-rm -f -r /Library/Caches/Homebrew/*
+
 
 echo "Security: https://objective-see.com/products.html"
 
