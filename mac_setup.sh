@@ -81,12 +81,13 @@ brew install --cask wakatime
 brew install --cask latest
 brew install --cask kdrive
 brew install --cask libreoffice
+brew install --cask affinity
 # brew install --cask google-chrome
 
 echo All app are instaled ! Well let\'s go cleanup brew
 
 # cleanup
-brew cleanup --force
+brew cleanup
 rm -f -r /Library/Caches/Homebrew/*
 
 
