@@ -87,6 +87,7 @@ echo All app are instaled ! Well let\'s go cleanup brew
 
 # cleanup
 brew cleanup --force
+rm -f -r /Library/Caches/Homebrew/*
 
 
 echo "Security: https://objective-see.com/products.html"
