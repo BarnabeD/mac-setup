@@ -83,6 +83,9 @@ brew install --cask kdrive
 brew install --cask libreoffice
 brew install --cask affinity
 brew install --cask cap
+brew install --cask timescribe
+brew install --cask wailbrew
+
 
 # brew install --cask google-chrome
 
