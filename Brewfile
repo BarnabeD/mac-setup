@@ -2,12 +2,14 @@ tap "dashlane/tap"
 brew "gmp"
 brew "gh"
 brew "git-delta"
+brew "gitleaks"
 brew "lazydocker"
 brew "lazygit"
 brew "libyaml"
 brew "llvm"
 brew "mas"
 brew "mise"
+brew "ncdu"
 brew "redis", restart_service: :changed
 brew "rust"
 brew "vips"
@@ -19,6 +21,7 @@ cask "appcleaner"
 cask "basecamp"
 cask "cap"
 cask "claude"
+cask "claude-code"
 cask "cyberduck"
 cask "deepl"
 cask "docker-desktop"
@@ -65,6 +68,7 @@ mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Messenger", id: 1480068668
 mas "Numbers", id: 409203825
+mas "OomlIO", id: 6756478856
 mas "Pages", id: 409201541
 mas "Perplexity", id: 6714467650
 mas "Slack", id: 803453959
