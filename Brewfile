@@ -42,6 +42,7 @@ cask "languagetool-desktop"
 cask "latest"
 cask "ledger-wallet"
 cask "linear-linear"
+cask "mark-text"
 cask "notion"
 cask "nucleo"
 cask "onlyoffice"
@@ -63,7 +64,6 @@ cask "wailbrew"
 cask "wakatime"
 cask "zed"
 mas "Dashlane", id: 517914548
-mas "Endel", id: 1346247457
 mas "GarageBand", id: 682658836
 mas "Hotspot Shield", id: 771076721
 mas "iMovie", id: 408981434
