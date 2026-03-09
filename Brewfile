@@ -1,4 +1,5 @@
 tap "dashlane/tap"
+brew "ccusage"
 brew "gmp"
 brew "gh"
 brew "git-delta"
@@ -26,12 +27,12 @@ cask "claude"
 cask "claude-code"
 cask "cyberduck"
 cask "deepl"
+cask "devtunnel"
 cask "docker-desktop"
 cask "dropbox"
 cask "figma"
 cask "firefox"
 cask "firefox@developer-edition"
-cask "font-red-hat-display"
 cask "gimp"
 cask "gitkraken"
 cask "google-chrome"
@@ -45,6 +46,7 @@ cask "latest"
 cask "ledger-wallet"
 cask "linear-linear"
 cask "mark-text"
+cask "netnewswire"
 cask "notion"
 cask "nucleo"
 cask "onlyoffice"
@@ -59,6 +61,7 @@ cask "spotify"
 cask "sublime-text"
 cask "superwhisper"
 cask "tableplus"
+cask "tablepro"
 cask "timescribe"
 cask "transmit"
 cask "vlc"
@@ -70,10 +73,13 @@ mas "GarageBand", id: 682658836
 mas "Hotspot Shield", id: 771076721
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
+mas "Keynote", id: 361285480
 mas "Messenger", id: 1480068668
+mas "Numbers", id: 361304891
 mas "Numbers", id: 409203825
 mas "OomlIO", id: 6756478856
 mas "Pages", id: 409201541
+mas "Pages", id: 361309726
 mas "Perplexity", id: 6714467650
 mas "Slack", id: 803453959
 mas "Telegram Lite", id: 946399090
