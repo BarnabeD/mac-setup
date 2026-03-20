@@ -11,6 +11,7 @@ brew "llvm"
 brew "mas"
 brew "mise"
 brew "ncdu"
+brew "neofetch"
 brew "redis", restart_service: :changed
 brew "rust"
 brew "tree"
@@ -25,6 +26,7 @@ cask "basecamp"
 cask "cap"
 cask "claude"
 cask "claude-code"
+cask "cmux"
 cask "conductor"
 cask "cyberduck"
 cask "deepl"
@@ -80,3 +82,4 @@ mas "Pages", id: 361309726
 mas "Perplexity", id: 6714467650
 mas "Slack", id: 803453959
 mas "Telegram Lite", id: 946399090
+cargo "rubyfast"
