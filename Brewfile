@@ -1,4 +1,6 @@
+tap "anomalyco/tap"
 tap "dashlane/tap"
+tap "erictli/tap"
 brew "ccusage"
 brew "gmp"
 brew "gh"
@@ -8,10 +10,12 @@ brew "lazydocker"
 brew "lazygit"
 brew "libyaml"
 brew "llvm"
+brew "localtunnel"
 brew "mas"
 brew "mise"
 brew "ncdu"
 brew "neofetch"
+brew "opencode"
 brew "redis", restart_service: :changed
 brew "rust"
 brew "tree"
@@ -46,6 +50,7 @@ cask "kdrive"
 cask "languagetool-desktop"
 cask "ledger-wallet"
 cask "linear-linear"
+cask "macshot"
 cask "mark-text"
 cask "netnewswire"
 cask "notion"
@@ -57,6 +62,7 @@ cask "raycast"
 cask "reader"
 cask "rectangle"
 cask "responsively"
+cask "erictli/tap/scratch"
 cask "signal"
 cask "spotify"
 cask "sublime-text"
@@ -73,8 +79,8 @@ mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Keynote", id: 361285480
 mas "Messenger", id: 1480068668
-mas "Numbers", id: 361304891
 mas "Numbers", id: 409203825
+mas "Numbers", id: 361304891
 mas "OomlIO", id: 6756478856
 mas "Pages", id: 409201541
 mas "Pages", id: 361309726
