@@ -1,5 +1,6 @@
 tap "dashlane/tap", trusted: true
 tap "erictli/tap", trusted: true
+tap "homebrew/brew-vulns"
 # Secrets scanner built for configurability and speed
 brew "betterleaks"
 # CLI tool for analyzing Claude Code usage from local JSONL files
@@ -58,6 +59,8 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 # Command-line interface for Dashlane
 brew "dashlane/tap/dashlane-cli", trusted: true
+# Check Homebrew packages for known vulnerabilities via osv.dev
+brew "homebrew/brew-vulns/brew-vulns"
 # Image editing and design software
 cask "affinity"
 # Application uninstaller
@@ -74,6 +77,10 @@ cask "claude"
 cask "claude-code@latest"
 # Ghostty-based terminal with vertical tabs and notifications for AI coding agents
 cask "cmux"
+# OpenAI's coding agent that runs in your terminal
+cask "codex"
+# OpenAI's Codex desktop app for managing coding agents
+cask "codex-app"
 # Claude code parallelisation
 cask "conductor"
 # Server and cloud storage browser
@@ -101,18 +108,20 @@ cask "google-chrome"
 cask "google-drive"
 # Speech to text application
 cask "handy"
+# Grammar checker for developers
+cask "harper-desktop"
 # Access the HEY email service
 cask "hey-desktop"
 # Vector graphics editor
 cask "inkscape"
-# Client for the kDrive collaborative cloud storage service
-cask "kdrive"
 # Grammar, spelling and style suggestions in all the writing apps
 cask "languagetool-desktop"
 # Wallet desktop application to maintain multiple cryptocurrencies
 cask "ledger-wallet"
 # App to manage software development and track bugs
 cask "linear"
+# System cleaner, optimiser, and malware scanner
+cask "mac-sai"
 # Screenshot and screen recording tool
 cask "macshot"
 # Markdown editor
@@ -127,6 +136,8 @@ cask "nucleo"
 cask "onlyoffice"
 # Local-first, agent-native design tool
 cask "open-design"
+# Terminal emulator built for code agents
+cask "otty"
 # Collaboration platform for API development
 cask "postman"
 # All-in-one bookmark manager
