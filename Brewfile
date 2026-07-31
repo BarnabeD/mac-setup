@@ -43,6 +43,8 @@ brew "onnxruntime"
 brew "opencode"
 # Vulnerability scanner which uses the OSV database
 brew "osv-scanner"
+# AI agent toolkit
+brew "pi-coding-agent"
 # Persistent key-value database, with built-in net interface
 brew "redis", restart_service: :changed
 # Safe, concurrent, practical language
@@ -79,8 +81,6 @@ cask "claude-code@latest"
 cask "cmux"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
-# OpenAI's Codex desktop app for managing coding agents
-cask "codex-app"
 # Claude code parallelisation
 cask "conductor"
 # Server and cloud storage browser
@@ -114,6 +114,8 @@ cask "harper-desktop"
 cask "hey-desktop"
 # Vector graphics editor
 cask "inkscape"
+# Client for the kDrive collaborative cloud storage service
+cask "kdrive"
 # Grammar, spelling and style suggestions in all the writing apps
 cask "languagetool-desktop"
 # Wallet desktop application to maintain multiple cryptocurrencies
@@ -138,6 +140,8 @@ cask "onlyoffice"
 cask "open-design"
 # Terminal emulator built for code agents
 cask "otty"
+# AI-powered answer engine with Personal Computer agent
+cask "perplexity"
 # Collaboration platform for API development
 cask "postman"
 # All-in-one bookmark manager
@@ -176,14 +180,10 @@ mas "Hotspot Shield", id: 771076721
 mas "iMovie", id: 408981434
 mas "Infomaniak Mail Lite", id: 1622596573
 mas "Keynote", id: 361285480
-mas "Keynote", id: 409183694
 mas "Messenger", id: 1480068668
 mas "Numbers", id: 361304891
-mas "Numbers", id: 409203825
 mas "OomlIO", id: 6756478856
 mas "Pages", id: 361309726
-mas "Pages", id: 409201541
-mas "Perplexity", id: 6714467650
 mas "Slack", id: 803453959
 mas "Telegram Lite", id: 946399090
 cargo "rubyfast"
