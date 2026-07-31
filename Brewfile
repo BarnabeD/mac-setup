@@ -1,6 +1,7 @@
+tap "aureuma/tailwindcss"
 tap "dashlane/tap", trusted: true
 tap "erictli/tap", trusted: true
-tap "homebrew/brew-vulns"
+tap "gocardless/taps"
 # Secrets scanner built for configurability and speed
 brew "betterleaks"
 # CLI tool for analyzing Claude Code usage from local JSONL files
@@ -49,6 +50,8 @@ brew "pi-coding-agent"
 brew "redis", restart_service: :changed
 # Safe, concurrent, practical language
 brew "rust"
+# Command-line tool for Stripe
+brew "stripe-cli"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Image processing library
@@ -59,10 +62,12 @@ brew "wget"
 brew "zsh-autosuggestions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
+# Standalone CLI for Tailwind CSS - no Node.js required
+brew "aureuma/tailwindcss/tailwindcss-standalone", trusted: true
 # Command-line interface for Dashlane
 brew "dashlane/tap/dashlane-cli", trusted: true
-# Check Homebrew packages for known vulnerabilities via osv.dev
-brew "homebrew/brew-vulns/brew-vulns"
+# GoCardless CLI
+brew "gocardless/taps/cli", trusted: true
 # Image editing and design software
 cask "affinity"
 # Application uninstaller
