@@ -2,10 +2,22 @@ tap "aureuma/tailwindcss"
 tap "dashlane/tap", trusted: true
 tap "erictli/tap", trusted: true
 tap "gocardless/taps"
+# YAML Parser
+brew "libyaml"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Automate deployment, configuration, and upgrading
+brew "ansible"
 # Secrets scanner built for configurability and speed
 brew "betterleaks"
 # CLI tool for analyzing Claude Code usage from local JSONL files
 brew "ccusage"
+# Cloudflare Tunnel client (formerly Argo Tunnel)
+brew "cloudflared"
+# Tool for testing and debugging Dependabot update jobs
+brew "dependabot"
+# Global DNS propagation checker TUI
+brew "dnsglobe"
 # TUI 3-way git mergetool
 brew "ec"
 # Like neofetch, but much faster because written mostly in C
@@ -22,12 +34,14 @@ brew "git-filter-repo"
 brew "gitleaks"
 # Agent multiplexer that lives in your terminal
 brew "herdr"
+# Forward webhook events from Hookdeck to a local server
+brew "hookdeck"
 # Lazier way to manage everything docker
 brew "lazydocker"
 # Simple terminal UI for git commands
 brew "lazygit"
-# YAML Parser
-brew "libyaml"
+# Let's Encrypt client and ACME library
+brew "lego"
 # Next-gen compiler infrastructure
 brew "llvm"
 # Exposes your localhost to the world for easy testing and sharing
@@ -36,8 +50,12 @@ brew "localtunnel"
 brew "mas"
 # Polyglot runtime manager (asdf rust clone)
 brew "mise"
+# Simple tool to make locally trusted development certificates
+brew "mkcert"
 # NCurses Disk Usage
 brew "ncdu"
+# HTTP load generator, inspired by rakyll/hey with tui animation
+brew "oha"
 # Cross-platform, high performance scoring engine for ML models
 brew "onnxruntime"
 # AI coding agent, built for the terminal
@@ -50,10 +68,10 @@ brew "pi-coding-agent"
 brew "redis", restart_service: :changed
 # Safe, concurrent, practical language
 brew "rust"
+# Command-line Interface for Scaleway
+brew "scw"
 # Command-line tool for Stripe
 brew "stripe-cli"
-# Display directories as trees (with optional color/HTML output)
-brew "tree"
 # Image processing library
 brew "vips"
 # Internet file retriever
