@@ -18,6 +18,8 @@ brew "cloudflared"
 brew "dependabot"
 # Global DNS propagation checker TUI
 brew "dnsglobe"
+# Embeddable SQL OLAP Database Management System
+brew "duckdb"
 # TUI 3-way git mergetool
 brew "ec"
 # Like neofetch, but much faster because written mostly in C
@@ -36,6 +38,8 @@ brew "gitleaks"
 brew "herdr"
 # Forward webhook events from Hookdeck to a local server
 brew "hookdeck"
+# Web search and scraping for agents
+brew "ketch"
 # Lazier way to manage everything docker
 brew "lazydocker"
 # Simple terminal UI for git commands
@@ -64,8 +68,10 @@ brew "opencode"
 brew "osv-scanner"
 # AI agent toolkit
 brew "pi-coding-agent"
+# Object-relational database system
+brew "postgresql@18", restart_service: :changed, link: true
 # Persistent key-value database, with built-in net interface
-brew "redis", restart_service: :changed
+brew "redis"
 # Safe, concurrent, practical language
 brew "rust"
 # Command-line Interface for Scaleway
@@ -161,6 +167,8 @@ cask "nucleo"
 cask "onlyoffice"
 # Local-first, agent-native design tool
 cask "open-design"
+# Disk space analyser
+cask "opendisk"
 # Terminal emulator built for code agents
 cask "otty"
 # AI-powered answer engine with Personal Computer agent
@@ -177,8 +185,6 @@ cask "reader"
 cask "rectangle"
 # Modified browser that helps in responsive web development
 cask "responsively"
-# Minimalist, offline-first markdown note-taking app
-cask "erictli/tap/scratch", trusted: true
 # Instant messaging application focusing on security
 cask "signal"
 # Music streaming service
@@ -197,15 +203,13 @@ cask "vlc"
 cask "wakatime"
 # Multiplayer code editor
 cask "zed"
+# Terminal for agent-driven development
+cask "zentty"
 mas "Dashlane", id: 517914548
 mas "GarageBand", id: 682658836
-mas "Hotspot Shield", id: 771076721
-mas "iMovie", id: 408981434
 mas "Infomaniak Mail Lite", id: 1622596573
 mas "Keynote", id: 361285480
-mas "Messenger", id: 1480068668
 mas "Numbers", id: 361304891
-mas "OomlIO", id: 6756478856
 mas "Pages", id: 361309726
 mas "Slack", id: 803453959
 mas "Telegram Lite", id: 946399090
