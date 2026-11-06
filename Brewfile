@@ -1,4 +1,4 @@
-tap "aureuma/tailwindcss"
+tap "aureuma/tailwindcss-standalone", "https://github.com/Aureuma/homebrew-tailwindcss-standalone.git"
 tap "dashlane/tap", trusted: true
 tap "erictli/tap", trusted: true
 tap "gocardless/taps"
@@ -10,10 +10,18 @@ brew "tree"
 brew "ansible"
 # Secrets scanner built for configurability and speed
 brew "betterleaks"
+# Resource monitor. C++ version and continuation of bashtop and bpytop
+brew "btop"
+# GNU multiple precision arithmetic library
+brew "gmp"
+# Emacs dependency management
+brew "cask"
 # CLI tool for analyzing Claude Code usage from local JSONL files
 brew "ccusage"
 # Cloudflare Tunnel client (formerly Argo Tunnel)
 brew "cloudflared"
+# Predictive ghost-text autosuggestions for zsh
+brew "deja"
 # Tool for testing and debugging Dependabot update jobs
 brew "dependabot"
 # Global DNS propagation checker TUI
@@ -24,8 +32,6 @@ brew "duckdb"
 brew "ec"
 # Like neofetch, but much faster because written mostly in C
 brew "fastfetch"
-# GNU multiple precision arithmetic library
-brew "gmp"
 # GitHub command-line tool
 brew "gh"
 # Syntax-highlighting pager for git and diff output
@@ -46,8 +52,6 @@ brew "lazydocker"
 brew "lazygit"
 # Let's Encrypt client and ACME library
 brew "lego"
-# Next-gen compiler infrastructure
-brew "llvm"
 # Exposes your localhost to the world for easy testing and sharing
 brew "localtunnel"
 # Mac App Store command-line interface
@@ -68,16 +72,24 @@ brew "opencode"
 brew "osv-scanner"
 # AI agent toolkit
 brew "pi-coding-agent"
+# Terminal UI showing which processes are using TCP and UDP ports
+brew "portop"
 # Object-relational database system
 brew "postgresql@18", restart_service: :changed, link: true
+# Command-line client for the Registration Data Access Protocol
+brew "rdap"
 # Persistent key-value database, with built-in net interface
 brew "redis"
+# Background code review with AI agents
+brew "roborev"
 # Safe, concurrent, practical language
 brew "rust"
 # Command-line Interface for Scaleway
 brew "scw"
 # Command-line tool for Stripe
 brew "stripe-cli"
+# High-performance secrets scanner
+brew "titus"
 # Image processing library
 brew "vips"
 # Internet file retriever
@@ -86,8 +98,6 @@ brew "wget"
 brew "zsh-autosuggestions"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
-# Standalone CLI for Tailwind CSS - no Node.js required
-brew "aureuma/tailwindcss/tailwindcss-standalone", trusted: true
 # Command-line interface for Dashlane
 brew "dashlane/tap/dashlane-cli", trusted: true
 # GoCardless CLI
@@ -102,14 +112,20 @@ cask "balenaetcher"
 cask "basecamp"
 # Screen recording software
 cask "cap"
+# Screenshot and screen recording tool
+cask "capso"
 # Anthropic's official Claude AI desktop app
 cask "claude"
 # Terminal-based AI coding assistant
 cask "claude-code@latest"
 # Ghostty-based terminal with vertical tabs and notifications for AI coding agents
 cask "cmux"
+# Track AI coding token usage and cost
+cask "codeburn-app"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
+# Markdown editor
+cask "colamd"
 # Claude code parallelisation
 cask "conductor"
 # Server and cloud storage browser
@@ -122,6 +138,8 @@ cask "devtunnel"
 cask "docker-desktop"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
+# Interface design and prototyping tool
+cask "figcraft"
 # Collaborative team software
 cask "figma"
 # Web browser
@@ -149,14 +167,14 @@ cask "kdrive"
 cask "languagetool-desktop"
 # Wallet desktop application to maintain multiple cryptocurrencies
 cask "ledger-wallet"
+# Free cross-platform office suite, fresh version
+cask "libreoffice"
 # App to manage software development and track bugs
 cask "linear"
 # System cleaner, optimiser, and malware scanner
 cask "mac-sai"
 # Screenshot and screen recording tool
 cask "macshot"
-# Markdown editor
-cask "mark-text"
 # Free and open-source RSS reader
 cask "netnewswire"
 # App to write, plan, collaborate, and get organised
@@ -169,6 +187,8 @@ cask "onlyoffice"
 cask "open-design"
 # Disk space analyser
 cask "opendisk"
+# Screen recorder and demo video editor
+cask "openscreen"
 # Terminal emulator built for code agents
 cask "otty"
 # AI-powered answer engine with Personal Computer agent
@@ -181,6 +201,8 @@ cask "raindropio"
 cask "raycast"
 # Save articles to read, highlight key content, and organise notes for review
 cask "reader"
+# Creator-focused screen recorder with auto-zoom, cursor effects, and more
+cask "recordly"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # Modified browser that helps in responsive web development
@@ -191,8 +213,12 @@ cask "signal"
 cask "spotify"
 # Text editor for code, markup and prose
 cask "sublime-text"
+# Native terminal coding agents command center
+cask "supacode"
 # Native database client for many database types
 cask "tablepro"
+# WYSIWYG Markdown editor with built-in AI writing tools
+cask "textus"
 # Working time tracker
 cask "timescribe"
 # File transfer application
@@ -201,12 +227,16 @@ cask "transmit"
 cask "vlc"
 # System tray app for automatic time tracking
 cask "wakatime"
+# Native desktop client for WhatsApp
+cask "whatsapp"
 # Multiplayer code editor
 cask "zed"
 # Terminal for agent-driven development
 cask "zentty"
 mas "Dashlane", id: 517914548
 mas "GarageBand", id: 682658836
+mas "Hotspot Shield", id: 771076721
+mas "iMovie", id: 408981434
 mas "Infomaniak Mail Lite", id: 1622596573
 mas "Keynote", id: 361285480
 mas "Numbers", id: 361304891
