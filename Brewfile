@@ -1,6 +1,5 @@
-tap "aureuma/tailwindcss-standalone", "https://github.com/Aureuma/homebrew-tailwindcss-standalone.git"
+tap "7a6163/tap"
 tap "dashlane/tap", trusted: true
-tap "erictli/tap", trusted: true
 tap "gocardless/taps"
 # YAML Parser
 brew "libyaml"
@@ -34,6 +33,8 @@ brew "ec"
 brew "fastfetch"
 # GitHub command-line tool
 brew "gh"
+# Distributed revision control system
+brew "git"
 # Syntax-highlighting pager for git and diff output
 brew "git-delta"
 # Quickly rewrite git repository history
@@ -56,14 +57,14 @@ brew "lego"
 brew "localtunnel"
 # Mac App Store command-line interface
 brew "mas"
-# Polyglot runtime manager (asdf rust clone)
-brew "mise"
 # Simple tool to make locally trusted development certificates
 brew "mkcert"
 # NCurses Disk Usage
 brew "ncdu"
 # HTTP load generator, inspired by rakyll/hey with tui animation
 brew "oha"
+# Create, run, and share large language models (LLMs)
+brew "ollama"
 # Cross-platform, high performance scoring engine for ML models
 brew "onnxruntime"
 # AI coding agent, built for the terminal
@@ -72,6 +73,8 @@ brew "opencode"
 brew "osv-scanner"
 # AI agent toolkit
 brew "pi-coding-agent"
+# PDF rendering library (based on the xpdf-3.0 code base)
+brew "poppler"
 # Terminal UI showing which processes are using TCP and UDP ports
 brew "portop"
 # Object-relational database system
@@ -86,6 +89,8 @@ brew "roborev"
 brew "rust"
 # Command-line Interface for Scaleway
 brew "scw"
+# Cross-shell prompt for astronauts
+brew "starship"
 # Command-line tool for Stripe
 brew "stripe-cli"
 # High-performance secrets scanner
@@ -94,10 +99,16 @@ brew "titus"
 brew "vips"
 # Internet file retriever
 brew "wget"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
 # Fish-like fast/unobtrusive autosuggestions for zsh
 brew "zsh-autosuggestions"
+# Zsh port of Fish shell's history search
+brew "zsh-history-substring-search"
 # Fish shell like syntax highlighting for zsh
 brew "zsh-syntax-highlighting"
+# Ultra-fast Ruby performance linter rewritten in Rust, with auto-fix support
+brew "7a6163/tap/rubyfast", trusted: true
 # Command-line interface for Dashlane
 brew "dashlane/tap/dashlane-cli", trusted: true
 # GoCardless CLI
@@ -110,10 +121,14 @@ cask "appcleaner"
 cask "balenaetcher"
 # All-In-One Toolkit for Working Remotely
 cask "basecamp"
+# Private meeting transcription
+cask "biscotti"
 # Screen recording software
 cask "cap"
 # Screenshot and screen recording tool
 cask "capso"
+# OpenAI's official ChatGPT desktop app
+cask "chatgpt"
 # Anthropic's official Claude AI desktop app
 cask "claude"
 # Terminal-based AI coding assistant
@@ -146,9 +161,8 @@ cask "figma"
 cask "firefox"
 # Web browser
 cask "firefox@developer-edition"
+cask "font-meslo-lg-nerd-font"
 cask "font-red-hat-display"
-# Free and open-source image editor
-cask "gimp"
 # Web browser
 cask "google-chrome"
 # Client for the Google Drive storage service
@@ -171,10 +185,14 @@ cask "ledger-wallet"
 cask "libreoffice"
 # App to manage software development and track bugs
 cask "linear"
+# Menu bar performance monitor with recorded history and analytics
+cask "mac-performance-monitor"
 # System cleaner, optimiser, and malware scanner
 cask "mac-sai"
 # Screenshot and screen recording tool
 cask "macshot"
+# Office suite
+cask "microsoft-office"
 # Free and open-source RSS reader
 cask "netnewswire"
 # App to write, plan, collaborate, and get organised
@@ -221,6 +239,8 @@ cask "tablepro"
 cask "textus"
 # Working time tracker
 cask "timescribe"
+# Application launcher and productivity tool
+cask "tinycast"
 # File transfer application
 cask "transmit"
 # Multimedia player
